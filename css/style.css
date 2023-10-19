@@ -1,75 +1,19 @@
 .header {
-    background-color: #ffffff;
+}
+.header_div {
     display: flex;
+    justify-content: space-between;
 }
-.header_logo {
-    color: red;
-    width: 188px;
-    height: 27px;
-    padding-top: 75px;
-    padding-left: 150px;
-    padding-right: 215px;
+.div_logo {
 }
-.header_nuv {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    padding-top: 75px;
-    padding-right: 197px;
+.div_nuv {
 }
-.header_nuv_1 {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
+.bx {
     text-decoration: none;
-    color: black;
-    transition: 0.3s;
 }
-
-.header_nuv_1:hover {
-    color: blue;
-    text-decoration: underline;
+.bx-heart {
 }
-
-.header_nuv_2 {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-    transition: 0.3s;
-    color: black;
+.bx-user {
 }
-
-.header_nuv_2:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-.header_nuv_3 {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-    transition: 0.3s;
-    color: black;
-}
-
-.header_nuv_3:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-.header_nuv_4 {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-    transition: 0.3s;
-    color: black;
-}
-
-.header_nuv_4:hover {
-    color: blue;
-    text-decoration: underline;
+.bx-shopping-bag {
 }
