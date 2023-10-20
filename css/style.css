@@ -88,13 +88,14 @@ ol, ul {
 .main1_div_p {
   padding: 326px 136px 50px 162px;
   color: #272727;
-  font-size: 64px;
+  font-size: 58px;
   font-style: normal;
   font-weight: 200;
   line-height: normal;
 }
 
 .border_b {
+  margin: 0 38px 0 291px;
   width: 130px;
   border: 0.5px solid #272727;
 }
@@ -119,4 +120,9 @@ ol, ul {
 
 .main1_div_img {
   padding-top: 314px;
+}
+
+.border_a {
+  display: flex;
+  align-items: center;
 }
