@@ -1,128 +1,170 @@
 html {
-  background-color: grey;
-  box-sizing: border-box;
-  font-size: 16px;
+  background-color: gray;
   display: flex;
   justify-content: center;
-  align-items: center;
+  box-sizing: border-box;
+  font-size: 16px;
 }
-  
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
-  
+
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
-  
+
 ol, ul {
   list-style: none;
 }
-  
-  img {
+
+img {
   max-width: 100%;
   height: auto;
 }
 
-.body_div {
+header {
+  padding: 60px 162px 60px 162px;
   width: 1440px;
-}
-
-.header {
-  padding-top: 60px;
-  display: flex;
-  justify-content: space-between;
   background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(39, 39, 39) 30%);
   background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(39, 39, 39) 30%);
   background: linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(39, 39, 39) 30%);
 }
 
-.header_logo {
-  margin-left: 162px;
+.header_conteiner {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
   color: #272727;
-  width: 257.044px;
-  height: 28.347px;
   text-decoration: none;
   font-size: 40px;
+}
 
+.header_nuv_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header_nuv {
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
 }
-
 .bx {
   padding-right: 40px;
   color: white;
 }
-
-.bx-menu {
-  margin-right: 162px;
-}
 /*
 .bx-heart {
-
 }
-
 .bx-user {
-
-}*/
-
+}
+*/
 .bx-shopping-bag {
   padding-right: 100px;
 }
-
-.main1 {
-  display: flex;
-  background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(39, 39, 39) 30%);
-  background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(39, 39, 39) 30%);
-  background: linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(39, 39, 39) 30%);
+.bx-menu {
+  padding: 0;
 }
-
-.main1_div_p {
-  padding: 326px 136px 50px 162px;
+.header_container_2 {
+  display: flex;
+  justify-content: space-between;
+}
+.header_container_2_description {
+  padding-top: 326px;
+}
+.header_container_2_description_p {
+  padding-bottom: 50px;
   color: #272727;
-  font-size: 58px;
+  font-family: Forum;
+  font-size: 64px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   line-height: normal;
 }
 
-.border_b {
-  margin: 0 38px 0 291px;
+.header_container_2_description_border {
+  display: flex;
+  justify-content: space-between;
+}
+
+.border_container {
+  display: flex;
+  align-items: center;
+}
+.border_conteiner_line {
+  margin-left: 129px;
   width: 130px;
   border: 0.5px solid #272727;
 }
-
-.see_collection {
- color: #272727;
+.header_container_2_description_a {
+  color: #272727;
+  font-family: Segoe UI;
   text-decoration: none;
-  transition: 1s;
   font-size: 18px;
   font-style: italic;
+  font-weight: 300;
+}
+.conteiner_img1 {
+  padding-top: 314px;
+  padding-right: 240px;
+}
+
+.header_container_3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_container_3_ruen {
+  padding-top: 346px;
+}
+
+.header_container_3_ring1_description {
+  text-align:right;
+  padding-top: 281px;
+}
+.header_container_3_ruen_ru {
+  text-decoration: none;
+  padding-right: 10px;
+  color: black;
+}
+.header_container_3_ruen_en {
+  text-decoration: none;
+  color: #C4C4C4;
+}
+
+.header_container_3_ring1_name {
+  padding-bottom: 9px;
+  color: #FFF;
+  text-align: right;
+  font-family: Futura PT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header_container_3_ring1_material {
+  padding-bottom: 9px;
+  color: #838383;
+  text-align: right;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 
-.see_collection:hover {
-  color: blue;
-}
-
-.see_collection_div {
-  display: flex;
-}
-
-.main1_div_img {
-  padding-top: 314px;
-}
-
-.border_a {
-  display: flex;
-  align-items: center;
+.header_container_3_ring1_price {
+  color: #EFC58B;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
 }
