@@ -352,6 +352,7 @@ header {
 }
 
 .main_div3 {
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -443,6 +444,7 @@ header {
   padding-bottom: 20px;
 }
 .main_div3_content2 {
+  background-image: url(imges/necklaceEtoile.png);
   background-image: url(/imges/necklaceEtoile.png);
   width: 590px;
   height: 820px;
