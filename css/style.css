@@ -453,7 +453,7 @@ header {
   padding-bottom: 20px;
 }
 .main_div3_content2 {
-  background-image: url(https://raw.githubusercontent.com/Hepyc/Second-proj/main/imges/necklaceEtoile.png);
+  background-image: url(../imges/map.png);
   width: 590px;
   height: 820px;
   display: flex;
