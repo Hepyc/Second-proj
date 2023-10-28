@@ -24,7 +24,9 @@ html {
     max-width: 100%;
     height: auto;
   }
-
+body {
+  min-width: 1440px;
+}
 header {
   padding: 60px 162px 60px 162px;
   width: 1440px;
@@ -162,4 +164,186 @@ header {
   font-style: italic;
   font-weight: 300;
   line-height: normal;
+}
+
+.main {
+  background-color: #fff;
+}
+
+.main_div1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_men {
+  background: rgba(39, 39, 39, 0.40);
+  width: 710px;
+  height: 587px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_men_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.men_description_a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-family: Futura PT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.men_description_p {
+  background-color: transparent;
+  color: #FFF;
+  text-align: center;
+  font-family: Forum;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
+
+.men_description_border_div {
+  background-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 23px;
+}
+
+.men_description_border {
+  width: 130px;
+  border: 0.5px solid #FFF;
+}
+
+
+.main_women {
+  background: rgba(39, 39, 39, 0.40);
+  width: 710px;
+  height: 587px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_women_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.women_description_a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-family: Futura PT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.women_description_p {
+  background-color: transparent;
+  color: #FFF;
+  text-align: center;
+  font-family: Forum;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
+
+.women_description_border_div {
+  background-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 23px;
+}
+
+.women_description_border {
+  width: 130px;
+  border: 0.5px solid #FFF;
+}
+
+.main_div2  {
+  display: flex;
+  justify-content: space-between;
+}
+.main_serch-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #272727;
+  width: 710px;
+  height: 604px;
+}
+
+.main_serch-map_description {
+  width: 386px;
+}
+
+.serch-map_p {
+  color: #FFF;
+  font-family: Forum;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  background-color: transparent;
+}
+.serch-map_p2 {
+  color: #FFF;
+  font-family: Forum;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  background-color: transparent;
+  padding-bottom: 16px;
+}
+.serch-map_p3 {
+  color: #FFF;
+  font-family: Futura PT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: transparent;
+  padding-bottom: 60px;
+}
+.input {
+  border: none;
+  color: #FFF;
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+
+.bx-right-arrow-alt {
+  padding: 0;
+}
+
+.serch-map_input-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border-bottom: 2px solid #FFF;
+}
+.main_map {
+
 }
