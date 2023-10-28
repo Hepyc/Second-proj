@@ -24,6 +24,11 @@ html {
     max-width: 100%;
     height: auto;
   }
+
+a {
+  text-decoration: none;
+}
+
 body {
   min-width: 1440px;
 }
@@ -282,6 +287,7 @@ header {
 .main_div2  {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .main_serch-map {
   display: flex;
@@ -344,6 +350,235 @@ header {
   background-color: transparent;
   border-bottom: 2px solid #FFF;
 }
-.main_map {
 
+.main_div3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_div3_content1 {
+
+}
+.main_div3_content1_jows {
+  background-color: #EDEDED;
+  margin-bottom: 20px;  
+}
+.main_div3_content1_img-jow {
+  padding: 47px 70px 68px 70px;
+}
+.main_div3_content1_jows-about {
+  padding-left: 30px;
+}
+.main_div3_content1_jows-about_link {
+}
+.main_div3_content1_jows-about_name {
+  color: #272727;
+  font-family: Futura PT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding-bottom: 9px;
+}
+.main_div3_content1_jows-about_material {
+  color: #757575;
+  font-family: Futura PT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 9px;
+}
+.main_div3_content1_jows-about_prie {
+  color: #E2B67A;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  padding-bottom: 20px;
+}
+.main_div3_content1_croix {
+  background-color: #EDEDED;
+}
+.main_div3_content1_img-croix {
+  padding: 60px 70px 68px 70px;
+}
+.main_div3_content1_croix_about {
+  padding-left: 30px;
+}
+.main_div3_content1_croix_link {
+}
+.main_div3_content1_croix_name {
+  color: #272727;
+  font-family: Futura PT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding-bottom: 9px;
+}
+.main_div3_content1_croix_material {
+  color: #757575;
+  font-family: Futura PT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 9px;
+}
+.main_div3_content1_croix_price {
+  color: #E2B67A;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  padding-bottom: 20px;
+}
+.main_div3_content2 {
+  background-image: url(/imges/necklaceEtoile.png);
+  width: 590px;
+  height: 820px;
+  display: flex;
+  align-items: flex-end;
+}
+.main_div3_content2_etoile_about {
+  padding-left: 30px;
+}
+.main_div3_content2_etoile_about_link {
+}
+.main_div3_content2_etoile_about_name {
+  color: #FFF;
+  font-family: Futura PT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding-bottom: 9px;
+}
+.main_div3_content2_etoile_about_material {
+  color: #E7E7E7;
+  font-family: Futura PT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 9px;
+}
+.main_div3_content2_etoile_about_price {
+  color: #EFC58B;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+    padding-bottom: 20px;
+}
+.main_div3_content3 {
+
+}
+.main_div3_content3_moon {
+  background-color: #EDEDED;
+  margin-bottom: 20px;
+}
+
+.img_moon {
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+
+.main_div3_content3_img-moon {
+  padding: 0px 40px 0px 40px;
+}
+.main_div3_content3_moon_about {
+  padding-left: 30px;
+}
+.main_div3_content3_moon_about_link {
+}
+.main_div3_content3_moon_about_name {
+  color: #272727;
+  font-family: Futura PT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding-bottom: 9px;
+}
+.main_div3_content3_moon_about_material {
+  color: #757575;
+  font-family: Futura PT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 9px;
+}
+.main_div3_content3_moon_about_price {
+  color: #E2B67A;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  padding-bottom: 20px;
+}
+.main_div3_content3_win {
+  background-color: #EDEDED;
+}
+.main_div3_content3_img-win {
+  padding: 0px 43px 0px 43px;
+}
+
+.img_win {
+  margin-top: -9px;
+  margin-bottom: -10px;
+}
+
+.main_div3_content3_win_about {
+  padding-left: 30px;
+}
+.main_div3_content3_win_about_link {
+}
+.main_div3_content3_win_about_name {
+  color: #272727;
+  font-family: Futura PT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding-bottom: 9px;
+}
+.main_div3_content3_win_about_material {
+  color: #757575;
+  font-family: Futura PT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 9px;
+}
+.main_div3_content3_win_about_price {
+  color: #E2B67A;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  padding-bottom: 20px;
 }
