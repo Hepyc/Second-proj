@@ -355,7 +355,7 @@ header {
 }
 
 .main_map {
-  background: url(".../imges/map.png"), lightgray 50% / cover no-repeat;
+  background: url(https://raw.githubusercontent.com/Hepyc/Second-proj/main/imges/map.png), lightgray 50% / cover no-repeat;
   width: 730px;
   height: 604px;
   flex-shrink: 0;
@@ -453,9 +453,7 @@ header {
   padding-bottom: 20px;
 }
 .main_div3_content2 {
-  background-image: url(".../imges/necklaceEtoile.png");
-  background-image: url("imges/necklaceEtoile.png");
-  background-image: url("/imges/necklaceEtoile.png");
+  background-image: url(https://raw.githubusercontent.com/Hepyc/Second-proj/main/imges/necklaceEtoile.png);
   width: 590px;
   height: 820px;
   display: flex;
