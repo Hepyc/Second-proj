@@ -592,3 +592,13 @@ header {
   letter-spacing: 0.54px;
   padding-bottom: 20px;
 }
+
+.main_div4 {
+  background-color: gray; 
+  width: 1440px;
+  height: 886px;
+}
+
+.main_div5_call {
+  border-image: url();
+}
